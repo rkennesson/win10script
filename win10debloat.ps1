@@ -31,7 +31,7 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
+	"InstallFoxitReader",
 	"Install7Zip",
 	"InstallNotepadplusplus",
 	"InstallMediaPlayerClassic",
@@ -203,7 +203,7 @@ Function InstallTitusProgs {
 
 Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
-	choco install adobereader -y
+	choco install foxitreader -y
 }
 
 Function InstallJava {
