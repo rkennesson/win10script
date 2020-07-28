@@ -39,6 +39,19 @@ $tweaks = @(
 	### Windows Apps
 	"DebloatAll",
 
+	###
+	
+	#{Enable|Disable}
+	#{Show|Hide}
+	#{Local|Internet}
+	#{UTC|Local}
+	#{Icon|Box}
+	#{Install|Uninstall}
+	#{Add|Remove}
+	#{Hide..From|Show...{On|In}}
+	#{In|Out}
+	#{Private|Public}
+
 	### Privacy Tweaks ###
 	"DisableTelemetry",             # "EnableTelemetry",
 	"DisableWiFiSense",             # "EnableWiFiSense",
